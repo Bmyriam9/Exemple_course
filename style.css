@@ -5,6 +5,9 @@
     padding:0;
     box-sizing:border-box;
 }
+.hero span{
+    color:#bfdbfe;
+}
 
 html{
     scroll-behavior:smooth;
