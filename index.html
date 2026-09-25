@@ -1,61 +1,592 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="OSSPH Freefolio - Clean Template"/>
-    <meta property="og:description" content="100% FREE Professional Portfolio Templates - Clean Template"/>
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://freefolio.web.app/clean" />
-    <meta
-        property="og:image"
-        content="https://i.postimg.cc/prrTdBX2/clean.png"
-    />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image:alt" content="OSSPH Freefolio">
-    <meta name="twitter:title" content="OSSPH Freefolio - Clean Template" />
-    <meta name="twitter:description" content="100% FREE Professional Portfolio Templates - Clean Template" />
-    <title>Clean a Freefolio template by OSSPH</title>
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  </head>
+<html lang="fr">
 
-  <body>
-    <div class="container">
-      <header>
-        <a href="#" data-aos="fade-up"><img src="./img/logo.svg" alt="logo" /></a>
-      </header>
-      <main class="content">
-        <h1 data-aos="fade-up"><strong>Hello, I'm Lynda.</strong> I'm a creative producer.</h1>
-        <h3 data-aos="fade-up">Also, I do jokes on Twitter</h3>
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portfolio artistique d'un étudiant en art."
+    >
+
+    <title>Portfolio — Étudiant en Art</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
+        <a href="#accueil" class="logo">
+            ALEX<span>.</span>
+        </a>
+
         <nav>
-          <a href="#" data-aos="fade-up">Portfolio</a>
-          <a href="#" data-aos="fade-up">Contact</a>
+            <a href="#apropos">À propos</a>
+            <a href="#travaux">Travaux</a>
+            <a href="#parcours">Parcours</a>
+            <a href="#contact">Contact</a>
         </nav>
-      </main>
-      <footer>
-        <div class="social">
-          <a href="#"><img src="img/youtube.svg" alt="Youtube" /></a>
-          <a href="#"><img src="img/twitter.svg" alt="Twitter" /></a>
-          <a href="#"><img src="img/facebook.svg" alt="Facebook" /></a>
-        </div>
-      </footer>
-    </div>
-    
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>       
-      AOS.init({
-          once: true,
-          delay: 0
-      });
-    </script>
-  </body>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero" id="accueil">
+
+            <div class="hero-content">
+
+                <p class="small-label">
+                    Étudiant en art · Abidjan
+                </p>
+
+                <h1>
+                    Je transforme
+                    <em>mes idées</em>
+                    en images.
+                </h1>
+
+                <p class="hero-description">
+                    Je suis étudiant en art et j'explore la peinture,
+                    le dessin, la photographie et les formes contemporaines
+                    pour raconter des histoires autrement.
+                </p>
+
+                <a href="#travaux" class="button">
+                    Découvrir mes travaux
+                    <span>↓</span>
+                </a>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img
+                    src="images/oeuvre-1.jpg"
+                    alt="Œuvre principale de l'artiste"
+                >
+
+                <div class="hero-caption">
+                    <span>01</span>
+                    <span>Étude abstraite · 2026</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             À PROPOS
+        ========================== -->
+
+        <section class="about" id="apropos">
+
+            <div class="section-number">
+                01 — À propos
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-image">
+
+                    <img
+                        src="images/portrait.jpg"
+                        alt="Portrait de l'artiste"
+                    >
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <h2>
+                        Observer.
+                        <br>
+                        Expérimenter.
+                        <br>
+                        <em>Créer.</em>
+                    </h2>
+
+                    <p>
+                        Mon travail artistique part d'une envie simple :
+                        observer le monde qui m'entoure et chercher de
+                        nouvelles façons de le représenter.
+                    </p>
+
+                    <p>
+                        À travers mes études, j'expérimente différentes
+                        techniques et différents supports. La peinture,
+                        le dessin, la photographie et les techniques mixtes
+                        occupent une place importante dans mes recherches.
+                    </p>
+
+                    <p>
+                        Je m'intéresse particulièrement aux relations
+                        entre le corps, l'espace, la mémoire et les émotions.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GALERIE
+        ========================== -->
+
+        <section class="gallery" id="travaux">
+
+            <div class="section-header">
+
+                <div class="section-number">
+                    02 — Travaux
+                </div>
+
+                <h2>
+                    Quelques explorations
+                    <br>
+                    <em>artistiques.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <!-- ŒUVRE 1 -->
+
+                <article class="artwork artwork-large">
+
+                    <div class="image-container">
+
+                        <img
+                            src="images/oeuvre-1.jpg"
+                            alt="Œuvre Fragmentation"
+                        >
+
+                        <span class="artwork-number">
+                            01
+                        </span>
+
+                    </div>
+
+                    <div class="artwork-info">
+
+                        <div>
+                            <h3>Fragmentation</h3>
+                            <p>Peinture abstraite</p>
+                        </div>
+
+                        <span>2026</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ŒUVRE 2 -->
+
+                <article class="artwork artwork-small">
+
+                    <div class="image-container">
+
+                        <img
+                            src="images/oeuvre-2.jpg"
+                            alt="Œuvre Silence"
+                        >
+
+                        <span class="artwork-number">
+                            02
+                        </span>
+
+                    </div>
+
+                    <div class="artwork-info">
+
+                        <div>
+                            <h3>Silence</h3>
+                            <p>Dessin</p>
+                        </div>
+
+                        <span>2026</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ŒUVRE 3 -->
+
+                <article class="artwork artwork-small">
+
+                    <div class="image-container">
+
+                        <img
+                            src="images/oeuvre-3.jpg"
+                            alt="Œuvre Matière"
+                        >
+
+                        <span class="artwork-number">
+                            03
+                        </span>
+
+                    </div>
+
+                    <div class="artwork-info">
+
+                        <div>
+                            <h3>Matière</h3>
+                            <p>Technique mixte</p>
+                        </div>
+
+                        <span>2025</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ŒUVRE 4 -->
+
+                <article class="artwork artwork-wide">
+
+                    <div class="image-container">
+
+                        <img
+                            src="images/oeuvre-4.jpg"
+                            alt="Œuvre Corps et espace"
+                        >
+
+                        <span class="artwork-number">
+                            04
+                        </span>
+
+                    </div>
+
+                    <div class="artwork-info">
+
+                        <div>
+                            <h3>Corps & espace</h3>
+                            <p>Photographie</p>
+                        </div>
+
+                        <span>2025</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ŒUVRE 5 -->
+
+                <article class="artwork artwork-small">
+
+                    <div class="image-container">
+
+                        <img
+                            src="images/oeuvre-5.jpg"
+                            alt="Œuvre Mémoire"
+                        >
+
+                        <span class="artwork-number">
+                            05
+                        </span>
+
+                    </div>
+
+                    <div class="artwork-info">
+
+                        <div>
+                            <h3>Mémoire</h3>
+                            <p>Peinture</p>
+                        </div>
+
+                        <span>2025</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ŒUVRE 6 -->
+
+                <article class="artwork artwork-large">
+
+                    <div class="image-container">
+
+                        <img
+                            src="images/oeuvre-6.jpg"
+                            alt="Œuvre Émergence"
+                        >
+
+                        <span class="artwork-number">
+                            06
+                        </span>
+
+                    </div>
+
+                    <div class="artwork-info">
+
+                        <div>
+                            <h3>Émergence</h3>
+                            <p>Illustration</p>
+                        </div>
+
+                        <span>2024</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ATELIER
+        ========================== -->
+
+        <section class="studio">
+
+            <div class="studio-image">
+
+                <img
+                    src="images/atelier.jpg"
+                    alt="Atelier de création artistique"
+                >
+
+            </div>
+
+            <div class="studio-text">
+
+                <span class="section-number">
+                    03 — Le processus
+                </span>
+
+                <h2>
+                    L'œuvre commence
+                    <em>bien avant</em>
+                    le résultat.
+                </h2>
+
+                <p>
+                    Croquis, recherches, essais, erreurs et expérimentations
+                    font partie intégrante de ma pratique.
+                </p>
+
+                <p>
+                    Mon atelier est un espace de recherche où les idées
+                    peuvent évoluer librement.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PARCOURS
+        ========================== -->
+
+        <section class="education" id="parcours">
+
+            <div class="section-number">
+                04 — Parcours
+            </div>
+
+            <h2>
+                Formation & expériences
+            </h2>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <span>2024 — Aujourd'hui</span>
+
+                    <div>
+                        <h3>
+                            Formation en Arts
+                        </h3>
+
+                        <p>
+                            Nom de l'établissement
+                        </p>
+
+                        <small>
+                            Peinture · Dessin · Histoire de l'art ·
+                            Techniques contemporaines
+                        </small>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span>2025</span>
+
+                    <div>
+                        <h3>
+                            Projet artistique
+                        </h3>
+
+                        <p>
+                            Projet personnel
+                        </p>
+
+                        <small>
+                            Recherche autour de la mémoire et de l'identité.
+                        </small>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span>2024</span>
+
+                    <div>
+                        <h3>
+                            Première exposition
+                        </h3>
+
+                        <p>
+                            Exposition collective
+                        </p>
+
+                        <small>
+                            Présentation de travaux réalisés pendant
+                            la formation.
+                        </small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ARTIST STATEMENT
+        ========================== -->
+
+        <section class="statement">
+
+            <div class="statement-content">
+
+                <span>
+                    ARTIST STATEMENT
+                </span>
+
+                <blockquote>
+                    « Je cherche à créer des images qui ne donnent pas
+                    toutes les réponses, mais qui donnent envie de regarder
+                    une seconde fois. »
+                </blockquote>
+
+                <p>
+                    — Alex
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section class="contact" id="contact">
+
+            <div class="section-number">
+                05 — Contact
+            </div>
+
+            <div class="contact-content">
+
+                <div>
+
+                    <h2>
+                        Une idée ?
+                        <br>
+                        <em>Parlons-en.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="contact-details">
+
+                    <p>
+                        Pour une collaboration, une exposition,
+                        un projet artistique ou simplement pour échanger.
+                    </p>
+
+                    <a href="mailto:email@example.com">
+                        email@example.com
+                    </a>
+
+                    <a href="https://instagram.com/" target="_blank">
+                        Instagram ↗
+                    </a>
+
+                    <a href="https://www.behance.net/" target="_blank">
+                        Behance ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <span>
+            © 2026 Alex
+        </span>
+
+        <span>
+            Portfolio artistique
+        </span>
+
+        <a href="#accueil">
+            Retour en haut ↑
+        </a>
+
+    </footer>
+
+
+</body>
+
 </html>
