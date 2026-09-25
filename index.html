@@ -1,146 +1,61 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="OSSPH Freefolio - Clean Template"/>
+    <meta property="og:description" content="100% FREE Professional Portfolio Templates - Clean Template"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://freefolio.web.app/clean" />
+    <meta
+        property="og:image"
+        content="https://i.postimg.cc/prrTdBX2/clean.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:alt" content="OSSPH Freefolio">
+    <meta name="twitter:title" content="OSSPH Freefolio - Clean Template" />
+    <meta name="twitter:description" content="100% FREE Professional Portfolio Templates - Clean Template" />
+    <title>Clean a Freefolio template by OSSPH</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<header>
-
-<nav>
-    <h1 class="logo">Awa</h1>
-
-    <ul>
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#apropos">À propos</a></li>
-        <li><a href="#competences">Compétences</a></li>
-        <li><a href="#projets">Projets</a></li>
-        <li><a href="#parcours">Parcours</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-
-</nav>
-
-</header>
-
-<main>
-
-<section id="accueil" class="hero">
-
-<h2>Bonjour, je suis <span>Awa</span> 👋</h2>
-
-<p>
-Développeuse web débutante passionnée par la création de sites modernes.
-</p>
-
-<a href="#contact" class="btn">Me contacter</a>
-
-</section>
-
-<section id="apropos">
-
-<h2>À propos de moi</h2>
-
-<p>
-Je découvre le développement web avec HTML et CSS.
-J'aime apprendre, résoudre des problèmes et créer des projets utiles.
-</p>
-
-</section>
-
-<section id="competences">
-
-<h2>Mes compétences</h2>
-
-<div class="cards">
-
-<div class="card">HTML</div>
-<div class="card">CSS</div>
-<div class="card">GitHub</div>
-<div class="card">Responsive Design</div>
-
-</div>
-
-</section>
-
-<section id="projets">
-
-<h2>Mes projets</h2>
-
-<div class="cards">
-
-<div class="card projet">
-
-<h3>Portfolio</h3>
-
-<p>Mon premier portfolio publié avec GitHub Pages.</p>
-
-</div>
-
-<div class="card projet">
-
-<h3>Page de présentation</h3>
-
-<p>Une page web créée en HTML et CSS.</p>
-
-</div>
-
-<div class="card projet">
-
-<h3>Projet personnel</h3>
-
-<p>Un futur projet que je développerai.</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="parcours">
-
-<h2>Mon parcours</h2>
-
-<div class="timeline">
-
-<div class="item">
-<h3>2026</h3>
-<p>Apprentissage de HTML et CSS.</p>
-</div>
-
-<div class="item">
-<h3>Objectif</h3>
-<p>Devenir développeuse web.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<p>Email : awa@email.com</p>
-
-<a href="mailto:awa@email.com" class="btn">
-M'envoyer un email
-</a>
-
-</section>
-
-</main>
-
-<footer>
-
-<p>© 2026 Awa — Mon Portfolio</p>
-
-</footer>
-
-</body>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#" data-aos="fade-up"><img src="./img/logo.svg" alt="logo" /></a>
+      </header>
+      <main class="content">
+        <h1 data-aos="fade-up"><strong>Hello, I'm Lynda.</strong> I'm a creative producer.</h1>
+        <h3 data-aos="fade-up">Also, I do jokes on Twitter</h3>
+        <nav>
+          <a href="#" data-aos="fade-up">Portfolio</a>
+          <a href="#" data-aos="fade-up">Contact</a>
+        </nav>
+      </main>
+      <footer>
+        <div class="social">
+          <a href="#"><img src="img/youtube.svg" alt="Youtube" /></a>
+          <a href="#"><img src="img/twitter.svg" alt="Twitter" /></a>
+          <a href="#"><img src="img/facebook.svg" alt="Facebook" /></a>
+        </div>
+      </footer>
+    </div>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>       
+      AOS.init({
+          once: true,
+          delay: 0
+      });
+    </script>
+  </body>
 </html>
